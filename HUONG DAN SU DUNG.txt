@@ -1,0 +1,24 @@
+			*****************************                             
+				HƯỚNG DẪN SỬ DỤNG 
+			****************************
+Tên Database: bdsct
+Username :root
+Pass :''
+Link:127.0.0.1/php-admin để vào trang quản trị website
+Tài khoản đăng nhập : tài khoản:Admin ||pass:Khongcopass
+                    
+
+
+			***********************************
+ 			FIX LỖI SERVE_ERROR SAU SAU KHI
+			**********************************
+
+
+
+1. Run composer install on your cmd or terminal
+2. Copy .env.example file to .env on the root folder
+3 .Open your .env file and change the database name :<nhansu_db>
+4. Run php artisan key:generate
+5. Run php artisan migrate
+6. Run php artisan serve
+Go to http://localhost:8000/
